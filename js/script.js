@@ -16,10 +16,13 @@ function myButtonClicked () {
   if (age >= 18) {
     document.getElementById("rating").innerHTML = "You can watch R rated movies alone."
   }
-  if (age >= 13) {
+  elseif (age >= 13) {
     document.getElementById("rating").innerHTML = "You can watch PG-13 rated movies alone."
   }
-  if (age >= 5) {
+  elseif (age >= 5) {
     document.getElementById("rating").innerHTML = "You can watch G and/or PG rated movies alone."
+  }
+  else {
+    document.getElementById("rating").innerHTML = "You're probably too young to do most things."
   }
 }
