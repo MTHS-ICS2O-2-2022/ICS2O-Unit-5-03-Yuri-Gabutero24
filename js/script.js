@@ -22,4 +22,4 @@ function myButtonClicked () {
   if (age >= 5) {
     document.getElementById("rating").innerHTML = "You can watch G and/or PG rated movies alone."
   }
-  
+}
