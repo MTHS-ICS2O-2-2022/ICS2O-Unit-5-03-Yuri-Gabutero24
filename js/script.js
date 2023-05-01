@@ -17,12 +17,12 @@ function myButtonClicked () {
     document.getElementById("rating").innerHTML = "You can watch R rated movies alone."
   }
   elseif (age >= 13) {
-    document.getElementById("rating").innerHTML = "You can watch PG-13 rated movies alone."
+    document.getElementById("rating").innerHTML = "You can watch PG-13 rated movies alone.";
   }
   elseif (age >= 5) {
-    document.getElementById("rating").innerHTML = "You can watch G and/or PG rated movies alone."
+    document.getElementById("rating").innerHTML = "You can watch G and/or PG rated movies alone.";
   }
   else {
-    document.getElementById("rating").innerHTML = "You're probably too young to do most things."
+    document.getElementById("rating").innerHTML = "You're probably too young to do most things.";
   }
 }
